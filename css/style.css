@@ -718,6 +718,11 @@ a {
   .about-section {
     margin: -440px auto 50px auto;
   }
+  .modal {
+    width: 350px;
+    top: 50%;
+    left: 25%;
+  }
 }
 /* Tablet */
 @media screen and (min-width: 1024px) {
