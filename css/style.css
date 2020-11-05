@@ -687,6 +687,11 @@ a {
   .modal-body {
     padding: 0;
   }
+  .modal {
+    max-width: 300px;
+    top: 50%;
+    left: 30%;
+  }
   
 }
 @media screen and (max-width: 465px) {
