@@ -687,9 +687,7 @@ a {
   .modal-body {
     padding: 0;
   }
-  body {
-    overflow: hidden;
-  }
+  
 }
 @media screen and (max-width: 465px) {
   .controls ul {
