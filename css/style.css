@@ -691,7 +691,7 @@ a {
   .modal {
     max-width: 300px;
     top: 50%;
-    left: 20%;
+    left: 35%;
   }
   
 }
@@ -722,7 +722,7 @@ a {
   .modal {
     width: 350px;
     top: 50%;
-    left: 25%;
+    left: 50%;
   }
 }
 /* Tablet */
