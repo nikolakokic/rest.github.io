@@ -652,7 +652,7 @@ a {
     height: 92vh;
     top: 8vh;
     background-color: #fff;
-    display: flex;
+    display: none;
     z-index: 20;
     flex-direction: column;
     align-items: center;
@@ -669,6 +669,7 @@ a {
 
 .nav-active {
   transform: translateX(0%);
+   display: inline-flex;
 }
 @media screen and (max-width: 370px) {
   .menu-one {
