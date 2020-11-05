@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+<link rel="stylesheet"  href="./css/lightbox.min.css">
+<script src="./js/lightbox-plus-jquery.min.js"></script>
+  <script src="https://kit.fontawesome.com/63ea1724c6.js" crossorigin="anonymous"></script>
+  <title>Resto</title>
+</head>
+
+<body>
+  <!-- HEADER SECTION -->
+  <header>
+    <a href="#"><img class="logo" src="./img/logo.jpg" alt="restaurant-logo" /></a>
+    <nav>
+      <ul class="nav-links">
+        <li class="active"><a href="#menu">Menu</a></li>
+        <li><a href="#diches">Diches</a></li>
+        <li><a href="#about">About us</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+      </ul>
+    </nav>
+    <div class="burger">
+      <div class="line-one"></div>
+      <div class="line-two"></div>
+      <div class="line-three"></div>
+    </div>
+  </header>
+  <!-- Baner section -->
+  <div class="slider">
+    <div class="background-img"></div>
+    <div class="myslider fade">
+      <div class="txt">
+        <h1>This Template is Awesome</h1>
+        <p>resto restaurant home page web site template</p>
+      </div>
+
+    </div>
+
+    <a class="prev">&#10094</a>
+    <a class="next">&#10095</a>
+
+    <div class="dotsbox" style="text-align: center;">
+      <span class="dot  dot-zero used"></span>
+      <span class="dot dot-one"></span>
+      <span class="dot dot-two"></span>
+    </div>
+  </div>
+  <!-- MENU SECTION -->
+  <div class="main-menu" id="menu">
+    <div class="menu-one">
+      <div class="text">
+        <h1>Voluptate cillum fugiat.</h1>
+        <p>Chese, tomato,mushrooms,onions.</p>
+      </div>
+      <div class="price">
+        <p>$50</p>
+      </div>
+
+    </div>
+    <!-- DIV2 -->
+    <div class="menu-one">
+      <div class="text">
+        <h1>Metus Varius laoreet.</h1>
+        <p>Chicken, mozzarella cheese, onions.</p>
+      </div>
+      <div class="price">
+        <p>$62</p>
+      </div>
+    </div>
+    <!-- DIV3 -->
+    <div class="menu-one">
+      <div class="text">
+        <h1>Donec sodales magna.</h1>
+        <p>Tuna, Sweetcorn, Cheese.</p>
+      </div>
+      <div class="price">
+        <p>$25</p>
+      </div>
+    </div>
+    <div class="menu-one">
+      <div class="text">
+        <h1>Sauge velit cursus.</h1>
+        <p>Pineapple, Minced Beef,Cheese.</p>
+      </div>
+      <div class="price">
+        <p>$30</p>
+      </div>
+    </div>
+    <div class="menu-one">
+      <div class="text">
+        <h1>Arcu pede enim justo.</h1>
+        <p>Tuna, Sweetcorn,Cheese.</p>
+      </div>
+      <div class="price">
+        <p>$45</p>
+      </div>
+    </div>
+    <div class="menu-one">
+      <div class="text">
+        <h1>Cras dapibussempre nisi.</h1>
+        <p>Pineapple, Minced Beef,Cheese.</p>
+      </div>
+      <div class="price">
+        <p>$32</p>
+      </div>
+    </div>
+    <div class="menu-one">
+      <div class="text">
+        <h1>Quam sempre libero.</h1>
+        <p>Cheese, tomato,mushrooms,onions.</p>
+      </div>
+      <div class="price">
+        <p>$15</p>
+      </div>
+    </div>
+    <div class="menu-one">
+      <div class="text">
+        <h1>Nam eget dui Etiam.</h1>
+        <p>Chicken,mozzarela cheese, onnions.</p>
+      </div>
+      <div class="price">
+        <p>$35</p>
+      </div>
+    </div>
+
+  </div>
+  <div data-modal-target="#modal" class="main-button-section">
+    <button class="main-button">View all menu <span>|</span> </button>
+  </div>
+  <!-- MODAL -->
+  <div class="modal " id="modal">
+    <div class="modal-header">
+      <div class="title">Menu</div>
+      <button data-close-button class="close-button">&times;</button>
+    </div>
+    <div class="modal-body">
+      <table>
+        <tr>
+          <th>Main Dishes</th>
+          <th>Price</th>
+
+        </tr>
+        <tr>
+          <td>Voluptate cillum fugiat. <br>
+            <p>Chese, tomato,mushrooms,onions</p>
+          </td>
+          <td>$50</td>
+        </tr>
+        <tr>
+          <td>Donec sodales magna <br>
+            <p>Tuna, Sweetcorn, Cheese</p>
+          </td>
+          <td>$25</td>
+        </tr>
+        <tr>
+          <td>Sauge velit cursus <br>
+            <p>Pineapple, Minced Beef,Cheese</p>
+          </td>
+          <td>$30</td>
+        </tr>
+        <tr>
+          <td>Arcu pede enim justo. <br>
+            <p>Tuna, Sweetcorn,Cheese.</p>
+          </td>
+          <td>$45</td>
+        </tr>
+        <tr>
+          <td>Cras dapibussempre nisi. <br>
+            <p>Pineapple, Minced Beef,Cheese.</p>
+          </td>
+          <td>$32</td>
+        </tr>
+        <tr>
+          <td>Quam sempre libero <br>
+            <p>Cheese, tomato,mushrooms,onions</p>
+          </td>
+          <td>$15</td>
+        </tr>
+        <tr>
+          <td>Nam eget dui Etiam <br>
+            <p>Chicken,mozzarela cheese, onnions</p>
+          </td>
+          <td>$35</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <div id="overlay"></div>
+<!-- Featured section -->
+  <div class="featured-section" id="diches">
+
+    <div class="container">
+
+      <div class="carousel">
+        <div class="container-menu">
+          <div class="controls">
+            <ul>
+              <li class="selected"></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+          <h1 class="header-text">
+            Featured Dishes
+          </h1>
+        </div>
+        <div class="featured-slider">
+          <section>
+
+            <div class="meal-one">
+
+
+              <img class="meals" src="./img/meal-1.jpg" alt="meal">
+              <h3>Fugia nulla sint <span class="price">$30</span></h3>
+
+              <p><span class="heart"><svg class="icon  is-x2 is-outlined is-hoverable is-transit " viewBox="0 0 32 32">
+                    <use xlink:href="#heart-icon"></use>
+                  </svg></span> <span id="number">24</span> people love this</p>
+
+
+            </div>
+            <div class="meal-one">
+              <img class="meals" src="./img/meal-2.jpg" alt="meal">
+              <h3>Daute irure dolor <span class="price">$24</span></h3>
+
+              <p><span class="heart"><svg class="icon is-x2 is-outlined is-hoverable is-transit" viewBox="0 0 32 32">
+                    <use xlink:href="#heart-icon"></use>
+                  </svg></span> 2 people love this</p>
+            </div>
+
+            <div class="meal-one">
+              <img class="meals" src="./img/meal-3.jpg" alt="meal">
+              <h3>Officia deserunt mollit <span class="price">$60</span></h3>
+
+              <p><span class="heart"><svg class="icon is-x2 is-outlined is-hoverable is-transit" viewBox="0 0 32 32">
+                    <use xlink:href="#heart-icon"></use>
+                  </svg></span> 11 people love this</p>
+            </div>
+            <div class="meal-one">
+              <img class="meals" src="./img/meal-4.jpg" alt="meal">
+              <h3>Pim minim veniam <span class="price">$17</span></h3>
+
+              <p><span class="heart"><svg class="icon is-x2 is-outlined is-hoverable is-transit" viewBox="0 0 32 32">
+                    <use xlink:href="#heart-icon"></use>
+                  </svg></span> 32 people love this</p>
+            </div>
+            <!-- Section 2 -->
+          </section>
+          <section>
+            <div class="meal-one">
+              <img class="meals" src="./img/section2-meal-1.jpg" alt="meal">
+              <h3>Fugia nulla sint <span class="price">$30</span></h3>
+
+              <p><span class="heart"><svg class="icon is-x2 is-outlined is-hoverable is-transit" viewBox="0 0 32 32">
+                    <use xlink:href="#heart-icon"></use>
+                  </svg></span>4 people love this</p>
+            </div>
+            <div class="meal-one">
+              <img class="meals" src="./img/section2-meal-2.jpg" alt="meal">
+              <h3>Daute irure dolor <span class="price">$24</span></h3>
+
+              <p><span class="heart"><svg class="icon is-x2 is-outlined is-hoverable is-transit" viewBox="0 0 32 32">
+                    <use xlink:href="#heart-icon"></use>
+                  </svg></span> 2 people love this</p>
+            </div>
+            <div class="meal-one">
+              <img class="meals" src="./img/section2-meal-3.jpg" alt="meal">
+              <h3>Officia deserunt mollit <span class="price">$60</span></h3>
+
+              <p><span class="heart"><svg class="icon is-x2 is-outlined is-hoverable is-transit" viewBox="0 0 32 32">
+                    <use xlink:href="#heart-icon"></use>
+                  </svg></span> 11 people love this</p>
+            </div>
+            <div class="meal-one">
+              <img class="meals" src="./img/section2-meal-4.jpg" alt="meal">
+              <h3>Pim minim veniam <span class="price">$17</span></h3>
+
+              <p><span class="heart"><svg class="icon is-x2 is-outlined is-hoverable is-transit" viewBox="0 0 32 32">
+                    <use xlink:href="#heart-icon"></use>
+                  </svg></span> 32 people love this</p>
+            </div>
+          </section>
+          <!-- SECTION 3 -->
+          <section>
+            <div class="meal-one">
+              <img class="meals" src="./img/section3-meal-1.jpg" alt="meal">
+              <h3>Fugia nulla sint <span class="price">$30</span></h3>
+
+              <p><span class="heart"><svg class="icon is-x2 is-outlined is-hoverable is-transit" viewBox="0 0 32 32">
+                    <use xlink:href="#heart-icon"></use>
+                  </svg></span> 24 people love this</p>
+            </div>
+            <div class="meal-one">
+              <img class="meals" src="./img/section3-meal-2.jpg" alt="meal">
+              <h3>Daute irure dolor <span class="price">$24</span></h3>
+
+              <p><span class="heart"><svg class="icon is-x2 is-outlined is-hoverable is-transit" viewBox="0 0 32 32">
+                    <use xlink:href="#heart-icon"></use>
+                  </svg></span> 2 people love this</p>
+            </div>
+            <div class="meal-one">
+              <img class="meals" src="./img/section3-meal-3.jpg" alt="meal">
+              <h3>Officia deserunt mollit <span class="price">$60</span></h3>
+
+              <p><span class="heart"><svg class="icon is-x2 is-outlined is-hoverable is-transit" viewBox="0 0 32 32">
+                    <use xlink:href="#heart-icon"></use>
+                  </svg></span> 11 people love this</p>
+            </div>
+            <div class="meal-one">
+              <img class="meals" src="./img/section3-meal-4.jpg" alt="meal">
+              <h3>Pim minim veniam <span class="price">$17</span></h3>
+
+              <p><span class="heart"><svg class="icon is-x2 is-outlined is-hoverable is-transit" viewBox="0 0 32 32">
+                    <use xlink:href="#heart-icon"></use>
+                  </svg></span> 32 people love this</p>
+            </div>
+          </section>
+          <!-- SECTION 4 -->
+          <section>
+            <div class="meal-one">
+              <img class="meals" src="./img/section4-meal-1.jpg" alt="meal">
+              <h3>Fugia nulla sint <span class="price">$30</span></h3>
+
+              <p><span class="heart"><svg class="icon is-x2 is-outlined is-hoverable is-transit" viewBox="0 0 32 32">
+                    <use xlink:href="#heart-icon"></use>
+                  </svg></span> 24 people love this</p>
+            </div>
+            <div class="meal-one">
+              <img class="meals" src="./img/section4-meal-2.jpg" alt="meal">
+              <h3>Daute irure dolor <span class="price">$24</span></h3>
+
+              <p><span class="heart"><svg class="icon is-x2 is-outlined is-hoverable is-transit" viewBox="0 0 32 32">
+                    <use xlink:href="#heart-icon"></use>
+                  </svg></span> 2 people love this</p>
+            </div>
+            <div class="meal-one">
+              <img class="meals" src="./img/section4-meal-3.jpg" alt="meal">
+              <h3>Officia deserunt mollit <span class="price">$60</span></h3>
+
+              <p><span class="heart"><svg class="icon is-x2 is-outlined is-hoverable is-transit" viewBox="0 0 32 32">
+                    <use xlink:href="#heart-icon"></use>
+                  </svg></span> 11 people love this</p>
+            </div>
+            <div class="meal-one">
+              <img class="meals" src="./img/section4-meal-4.jpg" alt="meal">
+              <h3>Pim minim veniam <span class="price">$17</span></h3>
+
+              <p><span class="heart"><svg class="icon is-x2 is-outlined is-hoverable is-transit" viewBox="0 0 32 32">
+                    <use xlink:href="#heart-icon"></use>
+                  </svg></span> 32 people love this</p>
+            </div>
+          </section>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <svg height="0" width="0" style="position:absolute;margin-left: -100%;">
+    <path id="heart-icon" d="M16,28.261c0,0-14-7.926-14-17.046c0-9.356,13.159-10.399,14-0.454c1.011-9.938,14-8.903,14,0.454
+        C30,20.335,16,28.261,16,28.261z" />
+  </svg>
+
+  <!-- About Section -->
+  <div class="about-section" id="about">
+    <div class="about-header">
+      <h1 class="section-title">
+        About us
+      </h1>
+      <h1 class="section-title-second">
+        Today's restaurant is threater on a grand scale.
+      </h1>
+    </div>
+    <div class="text-section1">
+      <p class="section-one-top">Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum
+        has been the industry's standard dummy text ever <del>since the 1500s</del>,<b>when an unknown printer</b> took
+        a galley of type and scrambel it to make a type specimen book. <b>It has survived not only five
+          centuries</b>,but also the leap into electronic typesetting,Lorem ipsum is made 25<sup>th</sup>April 1500.
+      </p>
+      <ul class="section-one-bottom"> <b>It was populirasied:</b>
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit</li>
+
+      </ul>
+    </div>
+    <div class="text-section2">
+      <p class="section-two-top"> Lorem ipsum is simply dummy text of the printing and typesetting industry. <b>Lorem
+          ipsum
+          has been the industry's standard</b> dummy text ever since the 1500s,when an <i> unknown printer</i> took
+        a galley of type and scrambel it to make a type specimen book. <b> It has survived not only five
+          centuries</b>,but also the leap into electronic typesetting.</p>
+
+      <p class="section-two-bottom"><i>Memories are like mulligatawny soup in a cheap restaurant.It is best not to stir
+          them.</i></p>
+    </div>
+  </div>
+
+  <!-- GALLERY -->
+  <div class="img-gallery" id="gallery">
+    <h1 class="gallery-header">
+      The Gallery
+    </h1>
+    <div class="img-container">
+      <div class="img-div img-one"><a href="./img/gallery-img1.jpg" data-lightbox="mygallery" data-title="breakfast"><img class="img-gal img-gal1 "
+            src="./img/gallery-img1.jpg" alt="food"><img class="icon-img" src="./img/loupe.svg" alt="loupe"></a></div>
+      <div class="img-div img-two"><a href="./img/gallery-img2.jpg" data-lightbox="mygallery"><img class="img-gal " src="./img/gallery-img2.jpg"
+            alt="food"><img class="icon-img" src="./img/loupe.svg" alt="loupe"></a></div>
+      <div class="img-div img-three"><a href="./img/gallery-img3.jpg" data-lightbox="mygallery"><img class="img-gal " src="./img/gallery-img3.jpg"
+            alt="food"><img class="icon-img" src="./img/loupe.svg" alt="loupe"></a></div>
+      <div class="img-div img-four"><a href="./img/gallery-img4.jpg" data-lightbox="mygallery"><img class="img-gal " src="./img/gallery-img4.jpg"
+            alt="food"><img class="icon-img" src="./img/loupe.svg" alt="loupe"></a></div>
+      <div class="img-div img-five"><a href="./img/gallery-img5.jpg" data-lightbox="mygallery"><img class="img-gal " src="./img/gallery-img5.jpg"
+            alt="food"><img class="icon-img" src="./img/loupe.svg" alt="loupe"></a></div>
+    </div>
+  </div>
+<div class="top-button">
+  <a class="top-scrl-btn" href="#"><img src="./img/top.svg" height="15px" width="15px" alt=""></a>
+</div>
+
+ <div class="footer">
+   
+     <ul class="section-one-footer">
+       <li><a href="#">New York Restaurant</a></li>
+       <li><a href="https://goo.gl/maps/SWeU1u7ucrj1zjVL8">3926 Anmoore Road</a></li>
+       <li><a href="https://goo.gl/maps/SWeU1u7ucrj1zjVL8">New York,NY 10014</a></li>
+       <li><a href="tel:718-749-1714">718-749-1714</a></li>
+     </ul>
+     <ul class="section-two-footer">
+      <li><a href="#">France Restaurant</a></li>
+      <li><a href="https://goo.gl/maps/6sJd9yMZQMPxPGKS6">68, rue de la Couronne</a></li>
+      <li><a href="https://goo.gl/maps/6sJd9yMZQMPxPGKS6">75002 PARIS</a></li>
+      <li><a href="tel:02.94.23.69.56">02.94.23.69.56</a></li>
+    </ul>
+    <ul class="section-three-footer">
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Careers</a></li>
+      <li><a href="#">Privacy Policy</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <ul class="section-four-footer">
+      <li><a href="#"><img src="./img/footer-logo.jpg" height="50px" width="50px" alt="logo"></a></li>
+      <li>&#169 All right Reserved 2014</li>
+      <li>Find more at <a href="#">Pixelhint.com</a></li>
+    </ul>
+   
+ </div>
+
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
